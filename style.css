@@ -1,0 +1,176 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #29445373;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('Menu\image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #faededee;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .hero button:hover {
+    background-color: #ddd;
+  }
+  
+  /* About section styles */
+  .About {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .About .text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .About h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Menu section styles */
+  .Menu {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .Menu h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Available-Menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .Menu .Menu {
+    flex-basis: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .Menu img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .Menu h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .Menu p {
+    font-size: 1em;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .contact form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Animation Example */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Apply animation to an element */
+  .hero h1 {
+    animation: fadeIn 2s ease-out;
+  }
+  
+  
