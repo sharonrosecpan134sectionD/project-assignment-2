@@ -20,6 +20,7 @@ This project showcases a fictional restaurant's website, demonstrating HTML stru
 How to View the Project
 
 To view the project, follow these steps:
+gh repo clone sharonrosecpan134sectionD/project-assignment-2
 
 https://github.com/sharonrosecpan134sectionD/project-assignment-2
 
